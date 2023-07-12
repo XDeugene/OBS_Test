@@ -27,6 +27,16 @@
 		      return;
 		    }
 		    
+		    if (userID !== "Bruce Leong") {
+		      alert("User ID is incorrect.");
+		      return;
+		    }
+			    
+		    if (password !== "12345") {
+		      alert("Password is incorrect.");
+		      return;
+		    }
+		    
 		    // If validation passes, submit the form
 		    this.submit();
 		  });
